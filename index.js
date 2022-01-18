@@ -3,6 +3,6 @@ main.remove();
 
 const newHeader = document.createElement("h1");
 newHeader.id = "victory";
-newHeader.textContent = "David Sands is the champion"
-document.body.append(newHeader);
+newHeader.innerHTML = "David Sands is the champion"
+
 
